@@ -22,7 +22,7 @@
 stdenv.mkDerivation rec {
   name = "${pname}${lib.optionalString withGnome "-gnome"}-${version}";
   pname = "NetworkManager-l2tp";
-  version = "1.20.4";
+  version = "1.20.8";
 
   src = fetchFromGitHub {
     owner = "nm-l2tp";
